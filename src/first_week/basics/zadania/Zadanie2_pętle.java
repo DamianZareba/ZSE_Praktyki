@@ -63,23 +63,23 @@ public class Zadanie2_pętle {
         //Zadanie 4
         Scanner zad4 = new Scanner(System.in);
         System.out.println("Podaj pierwszą liczbę: ");
-        int a = zad4.nextInt();
+        int A = zad4.nextInt();
         System.out.println("Podaj drugą liczbę: ");
-        int b = zad4.nextInt();
+        int B = zad4.nextInt();
         System.out.println("Podaj trzecią liczbę: ");
-        int c = zad4.nextInt();
-        if (a > b) {
-            if (b > c) {
+        int C = zad4.nextInt();
+        if (A > B) {
+            if (B > C) {
                 System.out.println("Kolejność malejąca");
             }
         }
-        if (a < b){
-            if (b < c){
+        if (A < B){
+            if (B < C){
                 System.out.println("Kolejność rosnąca");
             }
         }
-        if (a > b){
-            if (b < c){
+        if (A > B){
+            if (B < C){
                 System.out.println("Brak kolejności");
             }
         }
@@ -90,7 +90,7 @@ public class Zadanie2_pętle {
         // Zadanie 5
         Scanner zad5 = new Scanner(System.in);
         System.out.println("Podaj pierwszą liczbę: ");
-        double x = zad5.nextDouble();
+        double X = zad5.nextDouble();
         System.out.println("Podaj drugą liczbę: ");
         double y = zad5.nextDouble();
         System.out.println("Podaj swój wybór (+,- ,* ,/): ");
@@ -98,23 +98,23 @@ public class Zadanie2_pętle {
 
         switch (wybor){
             case '+':
-                double sum = x + y;
+                double sum = X + y;
                 System.out.println("Dodawanie równa sie: " + sum);
                 break;
             case '-':
-                double odejm = x - y;
+                double odejm = X - y;
                 System.out.println("Odejmowanie równa się: " + odejm);
                 break;
             case '*':
-                double mnoz = x * y;
+                double mnoz = X * y;
                 System.out.println("Mnożenie równa się: " + mnoz);
                 break;
             case '/':
-                double dziel = x / y;
+                double dziel = X / y;
                 System.out.println("Dzielenie równa się: " + dziel);
                 break;
         }
 
     }
 }
-}
+
